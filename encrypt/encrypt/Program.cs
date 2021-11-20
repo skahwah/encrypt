@@ -102,7 +102,8 @@ namespace Encrypt
                 {
                     byte[] encryptedShellcode = EncryptCSharp(Encoding.ASCII.GetBytes(word), passwordBytes, saltBytes);
                     insert += "\n" + spaces + "byte[] " + word + "_enc = new byte[] " + PrintByteArray(encryptedShellcode);
-                    insert += "\n" + spaces + "byte[] " + word + " = DecryptShellcode(passwordBytes, saltBytes, " + word + "_enc);\n";
+                    insert += "\n" + spaces + "byte[] " + word + " = DecryptShellcode(passwordBytes, saltBytes, " + word + "_enc);";
+                    insert += "\n" + spaces + "string " + word + "_str = Encoding.Default.GetString(" + word + ").Substring(0," + word.Length + ");\n";
                     Console.WriteLine("[+] Encrypted: " + word);
                 }
 
