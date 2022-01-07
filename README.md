@@ -23,8 +23,8 @@ Language (-l):
         -l cs - Create C# encrypted output
 
 Mode (-m):
-        -m file -a FILE- Read in a raw/binary position independent shellcode file
-        -m string -a - Read in one or more comma-seperated strings
+        -m file - Read in a raw/binary position independent shellcode file
+        -m string - Read in one or more comma-seperated strings
 
 Input (-i):
         -i C:\test\beacon.bin
