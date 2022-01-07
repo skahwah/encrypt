@@ -12,8 +12,7 @@ The following input types are supported:
 - **String:** One or more arbitrary strings that are comma-separated.
 
 ```
-encrypt.exe -h
-encrypt.exe
+C:\Users\skawa\Desktop\encrypt> encrypt.exe -h
 
 Examples:
         encrypt.exe -l cs -m file -i C:\test\beacon.bin -e random -o file
@@ -42,6 +41,7 @@ Ouput (-o):
         -o cli - Ouput to CLI
         -o file - Output to template files
 ```
+
 ## Usage: C# File Mode with Randomly Encryption Material Output to File
 ```
 C:\Users\skawa\Desktop\encrypt>encrypt.exe -l cs -m file -i ..\beacon.bin -e random -o file
