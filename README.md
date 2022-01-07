@@ -35,7 +35,7 @@ Encryption Type (-e):
         -e manual - Manually supply a alphanumeric key, salt and initialization value. This requires the following three arguments:
                  -k Password123
                  -s Salt123
-                 -i InitVal123
+                 -v InitVal123
 
 Ouput (-o):
         -o cli - Ouput to CLI
