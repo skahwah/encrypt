@@ -43,8 +43,8 @@ namespace Encrypt
                 Console.WriteLine("");
 
                 Console.WriteLine("Mode (-m):");
-                Console.WriteLine("\t-m file -a FILE- Read in a raw/binary position independent shellcode file");
-                Console.WriteLine("\t-m string -a - Read in one or more comma-seperated strings");
+                Console.WriteLine("\t-m file - Read in a raw/binary position independent shellcode file");
+                Console.WriteLine("\t-m string - Read in one or more comma-seperated strings");
                 Console.WriteLine("");
 
                 Console.WriteLine("Input (-i):");
