@@ -57,7 +57,7 @@ namespace Encrypt
                 Console.WriteLine("\t-e manual - Manually supply a alphanumeric key, salt and initialization value. This requires the following three arguments:");
                 Console.WriteLine("\t\t -k Password123");
                 Console.WriteLine("\t\t -s Salt123");
-                Console.WriteLine("\t\t -i InitVal123");
+                Console.WriteLine("\t\t -v InitVal123");
                 Console.WriteLine("");
 
                 Console.WriteLine("Ouput (-o):");
