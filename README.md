@@ -42,7 +42,7 @@ Ouput (-o):
         -o file - Output to template files
 ```
 
-## Usage: C# File Mode with Randomly Encryption Material Output to File
+## Usage: C# File Mode with Random Encryption Material Output to File
 ```
 C:\Users\skawa\Desktop\encrypt>encrypt.exe -l cs -m file -i ..\beacon.bin -e random -o file
 
